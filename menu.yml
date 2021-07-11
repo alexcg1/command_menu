@@ -1,0 +1,6 @@
+- name: Shut down
+  command: "shutdown -P now"
+- name: Restart
+  command: "shutdown -r now"
+- name: Network manager
+  command: nmtui-connect
